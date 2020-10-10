@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ControllerEmulatorAPI">
+
+    <SolidColorBrush x:Key="BackgroundMainWindow" />
+    <SolidColorBrush x:Key="BackgroundButton" />
+    <SolidColorBrush x:Key="BackgroundProfiles" />
+    <SolidColorBrush x:Key="BackgroundProfilesTab" />
+    <SolidColorBrush x:Key="BackgroundProfilesLabel" />
+    <SolidColorBrush x:Key="BackgroundSelectors" />
+    <SolidColorBrush x:Key="BackgroundStatusON" />
+    <SolidColorBrush x:Key="BackgroundStatusOFF" />
+    <SolidColorBrush x:Key="BackgroundTextBox" />
+    <SolidColorBrush x:Key="BackgroundComboBox" />
+
+    <SolidColorBrush x:Key="ForegroundMainWindow" />
+    <SolidColorBrush x:Key="ForegroundButton" />
+    <SolidColorBrush x:Key="ForegroundProfiles" />
+    <SolidColorBrush x:Key="ForegroundProfilesTab" />
+    <SolidColorBrush x:Key="ForegroundProfilesLabel" />
+    <SolidColorBrush x:Key="ForegroundSelectors" />
+    <SolidColorBrush x:Key="ForegroundStatusON" />
+    <SolidColorBrush x:Key="ForegroundStatusOFF" />
+    <SolidColorBrush x:Key="ForegroundTextBox" />
+    <SolidColorBrush x:Key="ForegroundComboBox" />
+</ResourceDictionary>

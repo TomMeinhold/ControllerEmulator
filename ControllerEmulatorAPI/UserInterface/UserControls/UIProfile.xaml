@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ControllerEmulatorAPI.UserInterface.UserControls.UIProfile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d">
+    <Grid x:Name="Grid" Background="{DynamicResource BackgroundProfiles}" MouseLeftButtonUp="Grid_MouseLeftButtonUp">
+        <Label x:Name="ProfileName" HorizontalAlignment="Stretch" Content="" VerticalAlignment="Stretch" Foreground="{DynamicResource ForegroundLabel}" Margin="10,5,10,4.6" BorderBrush="{x:Null}" />
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Remove" Click="MenuItem_Click" />
+            </ContextMenu>
+        </Grid.ContextMenu>
+    </Grid>
+</UserControl>
