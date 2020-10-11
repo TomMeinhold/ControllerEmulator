@@ -22,7 +22,7 @@ namespace LauncherAPI.Json
         {
             using WebClient client = new WebClient();
             client.Headers.Add("Cache-Control", "no-cache");
-            string json = client.DownloadString("https://raw.githubusercontent.com/TomMeinhold/HyperCrypt/master/version.json");
+            string json = client.DownloadString("https://raw.githubusercontent.com/TomMeinhold/ControllerEmulator/master/version.json");
             return JsonSerializer.Deserialize<ApplicationVersion>(json);
         }
 
