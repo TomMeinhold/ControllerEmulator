@@ -1,0 +1,27 @@
+﻿<Window x:Class="Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Launcher"
+        mc:Ignorable="d"
+        Title="ControllerEmulator Launcher" Height="450" Width="300" WindowStyle="None" Background="#FF222222"
+        WindowStartupLocation="CenterScreen" ContentRendered="Window_ContentRendered" Closing="Window_Closing"
+        ResizeMode="NoResize">
+    <Grid>
+        <ProgressBar x:Name="ProgressBar" Height="3" Margin="70,386,71,0" VerticalAlignment="Top"
+                     Foreground="#FF790BB8" />
+        <Button x:Name="InteractionButton" HorizontalAlignment="Center" Margin="0,394,0,0" VerticalAlignment="Top"
+                Visibility="Hidden" Click="InteractionButton_Click">
+            <Button.Content>
+                <Grid>
+                    <TextBlock x:Name="ButtonText" Text="" />
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Button x:Name="CloseButton" Content="X" VerticalAlignment="Top" HorizontalAlignment="Right" Width="40" Foreground="White" Background="#FF222222" BorderBrush="#FF222222" Click="CloseButton_Click" />
+        <Label Content="Controller-Emulator" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Foreground="White" />
+        <TextBlock x:Name="DownloadSpeedTextBlock" HorizontalAlignment="Center" Margin="0,365,0,0" Text=""
+                   TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" />
+    </Grid>
+</Window>
